@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* Center the container and give it consistent horizontal padding by default.
+   Sites can override by redefining @utility container in their own CSS. */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
