@@ -6,3 +6,9 @@
   margin-inline: auto;
   padding-inline: 2rem;
 }
+
+@theme {
+  --color-primary: #e2ff00;
+  --color-secondary: #B4B5A7;
+  --color-tertiary: #3F4038;
+}
