@@ -9,11 +9,6 @@ dist
 # Node dependencies
 node_modules
 
-# Not shipped: framework is a peerDependency, so consumers (and giget's .c12
-# install) resolve their own single vue. A committed lockfile would freeze a
-# vue version and drift from the consumer, breaking the Nitro server trace.
-pnpm-lock.yaml
-
 # Logs
 logs
 *.log

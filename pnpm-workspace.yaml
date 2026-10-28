@@ -4,8 +4,3 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   vue-demi: true
-
-# Hoist only the nuxt ecosystem to the root so @nuxtjs/seo's submodules
-# (robots, sitemap, og-image…) resolve under pnpm. Honored by giget install.
-publicHoistPattern:
-  - '*nuxt*'

@@ -1,7 +1,8 @@
 {
-  "name": "anvl-nuxt-base",
-  "version": "1.6.1",
+  "name": "nuxt-base-layer",
+  "version": "1.7.0",
   "type": "module",
+  "main": "./nuxt.config.ts",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -20,9 +21,8 @@
     "@vueuse/nuxt": "15.0.0"
   },
   "peerDependencies": {
-    "nuxt": ">=4.4.8 <5",
-    "vue": "^3.5.43",
-    "vue-router": "^5.1.0"
+    "nuxt": "^4",
+    "vue": "^3"
   },
   "devDependencies": {
     "nuxt": "4.5.2",
